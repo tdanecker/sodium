@@ -51,6 +51,23 @@
               :title
               :translate])
 
+
+;;; From https://react.semantic-ui.com/modules/accordion
+(add-key-set :accordion
+             [:fluid?
+              :inverted?
+              :styled?])
+
+;;; From https://react.semantic-ui.com/modules/accordion (tab: Accordion.Content)
+(add-key-set :accordion-content
+             [:active?])
+
+;;; From https://react.semantic-ui.com/modules/accordion (tab: Accordion.Title)
+(add-key-set :accordion-title
+             [:active?
+              :icon
+              :index])
+
 ;;; From https://react.semantic-ui.com/views/advertisement
 (add-key-set :advertisement
              [:centered?
